@@ -28,8 +28,9 @@ layout: compress
 <body class="body">
 <div class="container">
     <header class="header">
-        <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1>
-        <nav class="links">
+        <img src="./img/img.png" alt="" style="width:30%;">
+        <h1 style="margin:0;">教育部資訊志工領袖營<span>第三屆 x 間諜特務</span></h1>
+        <nav class="links" style="margin-bottom:30px">
             <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
             <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
             <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
@@ -41,8 +42,13 @@ layout: compress
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
+            <div class="card cards" style="padding-bottom: 3%;"  data-id="url(#/2015/04/25/workshop-clip-path)">
+                <div class="card__container card__container--closed">
+                    <h2>Activity1</h2>
+                </div>
+            </div>
             {% for post in site.posts %}
-            <div class="card" data-id="{{ post.id }}">
+            <div class="card" data-id="{{ post.id }}" data-index="0">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
                          xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"

@@ -10,6 +10,17 @@
 	padding-bottom: 20%;
 }
 
+.cards {
+	position: absolute;
+	float: left;
+	width: 9%;
+	height: 100%;
+	margin: 2%;
+	padding-bottom: 20%;
+	top: 400px;
+	
+}
+
 .card__container {
 	position: fixed;
 	top: 0;
